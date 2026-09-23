@@ -1,0 +1,106 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNfFwgo5PyhKxVQsI+cEzq9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ShahAlamProject/pelatihan-dasar-python/blob/day-2/tugasmodul2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "fi78p1qfca0Y"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4GDygj2sbEB0",
+        "outputId": "582b9e79-0c14-4ed2-a690-e6380325d6b6"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Luas persegi panjang : 75\n"
+          ]
+        }
+      ],
+      "source": [
+        "#Tugas 1, mencari luas persegi panjang\n",
+        "\n",
+        "#rumus, luas = panjang x lebar\n",
+        "\n",
+        "panjang = 15\n",
+        "lebar = 5\n",
+        "\n",
+        "luas = panjang * lebar\n",
+        "print (\"Luas persegi panjang :\",luas)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Tugas 2, belanja di kantin\n",
+        "#variabel, nama_makanan, harga_makanan,\n",
+        "#jumlah_makanan, nama_minuman, harga_minuman,\n",
+        "#jumlah_minuman, total, uang_dibayarkan, kembalian\n",
+        "\n",
+        "#makanan\n",
+        "nama_makanan = input(\"Masukkan nama makanan:\")\n",
+        "harga_makanan = int(input(\"Masukkan harga makanan:\"))\n",
+        "jumlah_makanan = int(input(\"Masukkan jumlah makanan:\"))\n",
+        "\n",
+        "#minuman\n",
+        "nama_minuman = input(\"Masukkan nama minuman:\")\n",
+        "harga_minuman = int(input(\"Masukkan harga minuman:\"))\n",
+        "jumlah_minuman = int(input(\"Masukkan jumlah minuman:\"))\n",
+        "\n",
+        "#total\n",
+        "total = (harga_makanan * jumlah_makanan) + (harga_minuman * jumlah_minuman)\n",
+        "print(\"Total belanja :\", total)\n",
+        "\n",
+        "#jumlah bayar\n",
+        "uang_dibayarkan = int(input(\"Masukkan jumlah uang yang dibayarkan\"))\n",
+        "print(\"Uang yang dibayarkan:\",uang_dibayarkan)\n",
+        "\n",
+        "#kembalian\n",
+        "kembalian = uang_dibayarkan - total\n",
+        "print(\"Kembalian:\",kembalian)"
+      ],
+      "metadata": {
+        "id": "McImglEMcvvX"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
